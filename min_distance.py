@@ -1,3 +1,5 @@
+# 배열에서 가장 가까운 두 항목을 찾아 거리를 찾아 반환하는 알고리즘
+
 from collections import deque
 import time
 
