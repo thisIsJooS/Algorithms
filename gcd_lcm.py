@@ -2,10 +2,8 @@
 # gcd(a,b) = gcd(b, a mod b)
 
 def gcd_iter(a,b):
-  while b!=0:
-    r=a%b
-    a=b
-    b=r
+  while b:
+    a,b=b,a%b
   return a
 
 def gcd_recur(a,b):
