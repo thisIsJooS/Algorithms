@@ -44,7 +44,7 @@ def counting_sort(A):
     A[i] = output[i]
 
 #O(N^2)인 brute-force algorithm
-def min_distance_brute(A):
+def min_distance_bf(A):
   n=len(A)
   dmin=float("inf")
   for i in range(n):
@@ -83,14 +83,14 @@ for i in range(2000,0,-1):
   list2.append(i)
   
 t1=time.time()
-val1 = min_distance_brute(list1)
+val1 = min_distance_bf(list1)
 t2=time.time()
 val2 = min_distance_radix(list1)
 t3=time.time()
 val3 = min_distance_counting(list2)
 t4 = time.time()
 
-print("min_distance_brute 시간 : ",  t2-t1)
+print("min_distance_bf 시간 : ",  t2-t1)
 print("min_distance_radix 시간 : ", t3-t2)
 print("min_distance_counting 시간 : ", t4-t3)
 
@@ -98,7 +98,7 @@ print("min_distance_counting 시간 : ", t4-t3)
 
 ###############################################
 # 결과
-# min_distance_brute 시간 :  6.0872883796691895
+# min_distance_bf 시간 :  6.0872883796691895
 # min_distance_radix 시간 :  0.4752662181854248
 # min_distance_counting 시간 :  0.004540205001831055
 ###############################################
