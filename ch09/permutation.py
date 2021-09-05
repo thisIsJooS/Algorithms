@@ -32,3 +32,10 @@ all_permutations(['A', 'B', 'C'])
 # ['C', 'A', 'B']
 # ['C', 'B', 'A']
 ####################
+
+
+
+# 파이썬에서는 itertools 모듈에서 순열 생성을 위한 permutations  함수를 제공한다.
+
+# from itertools import permutations
+# print(list(permutations(['A','B','C'])))   #순열을 리스트로 만들어 출력
