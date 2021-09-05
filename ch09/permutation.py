@@ -8,7 +8,7 @@ def all_permutations(data):
 def DFS_permutation(data, sol, level, selected):
     if level == len(data):  # 함수가 끝나는 조건 (탐색이 끝나는 조건)
         print(sol)
-        return
+        return  # 백트래킹
 
     for i in range(len(data)):
         if not selected[i]:  # 아직 사용되지 않았어야 가능한 부분해
