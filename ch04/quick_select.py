@@ -34,7 +34,7 @@ def partitionAndReturnPivotIndex(A):
     
     A[pivotIndex], A[high] = A[high], A[pivotIndex]
     
-    return pivotIndex
+    return high
 
   
 arr = [3, 8, 4, 6, 5, 7, 9, 2, 1]
