@@ -34,7 +34,7 @@ def strip_closest_pair(P, d):
                 dmin = dij
         j += 1
     
-    return d
+    return dmin
 
 
 def distance(A, B):
