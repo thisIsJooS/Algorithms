@@ -14,4 +14,4 @@ def string_matching_bf(T, P):
 T="dmikijkladajskladjalsjsakdsklmikidskjads"
 P="miki"
 
-print(string_matching_brute(T,P))
+print(string_matching_bf(T,P))
