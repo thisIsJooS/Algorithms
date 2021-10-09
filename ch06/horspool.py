@@ -15,7 +15,7 @@ def search_horspool(T, P):
     table = shift_table(P)
     lastCharIndex = m-1
     
-    while lastCharIndex < n-1:
+    while lastCharIndex < n:
         matchedCnt = 0
         while matchedCnt <= m-1 and T[lastCharIndex - matchedCnt] == P[(m-1) - matchedCnt]:
             matchedCnt += 1
