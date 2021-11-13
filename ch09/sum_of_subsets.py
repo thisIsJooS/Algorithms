@@ -1,7 +1,7 @@
 # 집합 S의 부분집합 중에 원소의 합이 M이 되는 모든 가능한 부분집합 탐색 - 백트래킹 이용
 
 def all_sum_of_subsets(S, M):
-  f(S, M, 0, [], sum(S))
+  DFS_sum_of_subsets(S, M, 0, [], sum(S))
 
 
 def DFS_sum_of_subsets(S, M, level, sol, remaining):  # remaining : 현재 해에 선택되지 않고 남은 집합 S의 모든 숫자들의 합
