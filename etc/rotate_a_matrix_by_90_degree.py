@@ -32,3 +32,14 @@ for a in rotate_a_matrix_by_90_degree(arr):
 print("=========")
 for a in rotate_a_matrix_by_90_degree_reverse(arr):
     print(a)
+    
+    
+# 출력결과
+#
+# [7, 4, 1]
+# [8, 5, 2]
+# [9, 6, 3]
+# =========
+# [3, 6, 9]
+# [2, 5, 8]
+# [1, 4, 7]
