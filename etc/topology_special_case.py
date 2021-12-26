@@ -2,8 +2,10 @@
 # 1. 사이클이 존재하는 경우
 # 2. 위상 정렬의 결과가 1개가 아니라 여러가지인 경우
 # 3. 위 2가지 경우에 해당하지 않는다면 위상정렬을 수행한 결과는 오직 하나
-    
-    
+
+from collections import deque
+N = 10
+
 def check(graph):
     inDeg = [0] * (N+1)
     inDeg[0] = -1
