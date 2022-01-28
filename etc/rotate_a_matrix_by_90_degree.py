@@ -15,7 +15,7 @@ def rotate_a_matrix_by_90_degree_reverse(a):    # 반시계방향 회전
     result = [[0] * n for _ in range(m)]
     for i in range(n):
         for j in range(m):
-            result[-1-j][i] = a[i][j]
+            result[m-1-j][i] = a[i][j]
             
     return result
 
