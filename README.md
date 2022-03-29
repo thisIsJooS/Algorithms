@@ -1,8 +1,7 @@
 # Algorithm
-알고리즘 공부 및 실습 코드 저장소
+알고리즘 공부 및 실습 코드
 
 
-### 교재 : 파이썬 알고리즘 - 최영규
 * CH 02 : 알고리즘 효율성 분석
 * CH 03 : Brute Force & Exhaustive Search
 * CH 04 : Decrease-and-Conquer
